@@ -7,10 +7,17 @@
 </head>
 <body>
     <?php 
-    const _TX = 850;
-
-    echo "Resurch = " . _TX;
-        
+    $nome = "Pedro";
+    $salary = 2500.75;
+    echo "It is true your name is $nome?";
+    ?>
+    <?php
+    echo "Your salary is $salary?";
+    echo ' ';
+    $string1 = 'I have 9 pieces of gum. ';
+    $string2 = 'My favorite genre of music is hip hop.';
+    $string3 = $string1 . '' . $string2;
+    echo($string3);
     ?>
 </body>
 </html>
