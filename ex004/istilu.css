@@ -13,7 +13,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     
-    display: fixed;
+    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
